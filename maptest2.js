@@ -27,7 +27,7 @@ var map;
 	  center: [-80, 35], // longitude, latitude
 	  zoom: 3
 	});
-	// GitHub Sync test
+	// GitHub Sync test 2
 	// Add sample world cities layer:
 	var worldCities = new FeatureLayer("http://sampleserver6.arcgisonline.com/arcgis/rest/services/SampleWorldCities/MapServer/0");
 	
