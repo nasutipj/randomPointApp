@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no"/>
+		<title>Simple Map Test</title>
+		<link rel="stylesheet" href="https://js.arcgis.com/3.17/esri/css/esri.css">
+		<link rel="stylesheet" href="maptest2.css">
+		<script src="https://js.arcgis.com/3.17/"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		
+  </head>
+  <body>
+		<div id="container1" class="container">
+			<button id="clearGraphics" class="randpoint" type="button">Clear All Graphics</button>
+			<button id="randpoint" class="randpoint" type="button">Click for Random Point</button>
+			<button id="randpoint2" class="randpoint" type="button">Random Point In California</button>
+			
+			<p id="threeWords">Enter three words separated by spaces</p>
+			<form onsubmit="return false;">
+				<input type="text" id="textInput" name="threeWordInput" placeholder="index home raft">
+				<input type="button" id="wordInputButton" class="randpoint" name="Search W3W" value="Search W3W">
+			</form>
+			<p id="w3wOutAddress"></p>
+			
+			<p id="searchAddress">Enter an address to search</p>
+			<form onsubmit="return false;">
+				<input type="text" id="addressInput" name="addressInput" placeholder="Enter address here">
+				<input type="button" id="addressInputButton" name="Search address" class="randpoint" value="Search Address">
+			</form>
+			<p id="addressOutPoint"></p>
+			<p id="addressOutW3W"></p>
+			
+			<p id="searchIP">Enter an IP address to search location</p>
+			<form onsubmit="return false;">
+				<input type="text" id="ipInput" name="addressInput" placeholder="Enter IP address here">
+				<input type="button" id="ipInputButton" name="Search IP address" class="randpoint" value="Search IP Address">
+			</form>
+			
+			<!--<div id="toolbar" class="randpoint"></div>-->
+		</div>
+		
+		<div id="map">
+		</div>
+
+		<script src="maptest2.js"></script>
+		<script>
+			//comment
+		</script>
+  </body>
+</html>

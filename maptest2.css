@@ -1,0 +1,166 @@
+html, body, #map {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#map {
+	width: 80%;
+}
+
+#container1 {
+	right: 0px;
+	width: 20%;
+	color: tan;
+	padding: 0;
+	margin: 0;
+	background-color: #b3e6b3; 
+	z-index: 999;
+}
+
+.randpoint {
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    #padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+	font-size: 16px;
+	z-index:1000;
+	position: absolute;
+}
+
+#clearGraphics {
+	top:0px;
+	right: 0px;
+	width: 20%;
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+	font-size: 16px;
+}
+
+#randpoint {
+	top:40px;
+	right: 0px;
+	width: 20%;
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+	font-size: 16px;
+}
+#randpoint2 {
+	top:80px;
+	right: 0px;
+	width:20%;
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+	font-size: 16px;
+}
+
+#toolbar {
+	right: 0px;
+	width: 20%;
+	top: 1px;
+	height: calc(100% - 31px);
+	z-index: 999;
+	background-color: #b3e6b3; 
+}
+
+#threeWords {
+	right: 0px;
+	top: 120px;
+	position: absolute;
+	z-index: 1000;
+	text-align: center;
+	text-decoration: bold;
+}
+#textInput {
+	right: 0px;
+	top: 158px;
+	position: absolute;
+	z-index: 1000;
+	width: 18%;
+}
+
+#wordInputButton {
+	right: 0px;
+	top: 182px;
+	position: absolute;
+	z-index: 1000;
+	width: 18%;
+}
+
+#w3wOutAddress {
+	right: 0px;
+	top: 195px;
+	position: absolute;
+	z-index: 1000;
+	color: black;
+}
+
+#searchAddress {
+	right: 0px;
+	top: 230px;
+	position: absolute;
+	z-index: 1000;
+	text-align: center;
+	text-decoration: bold;
+}
+
+#addressInput {
+	right: 0px;
+	top: 265px;
+	position: absolute;
+	z-index: 1000;
+	width: 18%;
+	align: center;
+}
+
+#addressInputButton {
+	right: 0px;
+	top: 295px;
+	position: absolute;
+	z-index: 1000;
+	width: 18%;
+}
+
+#addressOutPoint {
+	right: 0px;
+	top: 310px;
+	position: absolute;
+	z-index: 1000;
+	color: black;
+}
+
+#addressOutW3W {
+	right: 0px;
+	top: 333px;
+	position: absolute;
+	z-index: 1000;
+	color: black;
+}
+
+#searchIP {
+	right: 0px;
+	top: 360px;
+	position: absolute;
+	z-index: 1000;
+	text-align: center;
+	text-decoration: bold;
+}
+
+#ipInput {
+	right: 0px;
+	top: 400px;
+	position: absolute;
+	z-index: 1000;
+	width: 18%;
+	align: center;
+}
+
+#ipInputButton {
+	right: 0px;
+	top: 430px;
+	position: absolute;
+	z-index: 1000;
+	width: 18%;
+}
